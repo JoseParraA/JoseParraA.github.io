@@ -1,0 +1,137 @@
+
+html {
+  height: auto;
+}
+body {
+  background-color: #35598e;
+  font-family: 'Arvo';
+  text-align: center;
+  height: auto;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: white;
+}
+
+.brand-logo {
+  float: left;
+  margin-top: 25px;
+  text-decoration: none;
+  color: #444;
+
+}
+
+nav {
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 70px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #444;
+  text-transform: uppercase;
+}
+nav a:hover {
+  color: #000;
+}
+
+.icon {
+  height: 35px;
+  width: 35px
+}
+
+.container-social-media ul {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 100px;
+  display: flex;
+  width: auto;
+}
+
+li {
+  margin: 30px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    li {
+        margin: 10px;
+    }
+    .container-social-media ul {
+      margin: 30px;
+    }
+}
+
+#jose {
+  width: 200px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+#back {
+  color: white;
+}
+
+.float-right {
+  padding-top: 30px;
+}
+
+.col-md-6 {
+  margin-top: 40px;
+}
+
+.card-body {
+  margin-top: 20px;
+}
+
+.card-text {
+  color:  #d9d9d9;
+}
+
+#calendar-img {
+  width: 300px;
+  height: 270px;
+  border: 1px solid black;
+  box-shadow: 0 8px 6px -6px black;
+  border-radius: 2%;
+}
+
+#solar-img {
+  width: 300px;
+  height: 270px;
+  border: 1px solid black;
+  box-shadow: 0 8px 6px -6px black;
+  border-radius: 2%;
+}
+
+#bank-img {
+  width: 330px;
+  height: 270px;
+  border: 1px solid black;
+  box-shadow: 0 8px 6px -6px black;
+  border-radius: 2%;
+}
+
+#tic-img {
+  width: 300px;
+  height: 270px;
+  border: 1px solid black;
+  box-shadow: 0 8px 6px -6px black;
+  border-radius: 2%;
+}
