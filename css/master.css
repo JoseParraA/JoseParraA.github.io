@@ -135,3 +135,14 @@ li {
   box-shadow: 0 8px 6px -6px black;
   border-radius: 2%;
 }
+
+#resume {
+  font-size: 15px;
+  background-color: white;
+  padding: 10px;
+}
+
+.row-2 {
+  padding-top: 40px;
+  float: right;
+}
