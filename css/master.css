@@ -64,6 +64,10 @@ nav a:hover {
   width: auto;
 }
 
+p {
+  color: #181818;
+}
+
 li {
   margin: 30px;
 }
